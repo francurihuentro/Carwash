@@ -1,0 +1,43 @@
+{
+  "secuencias": {
+    "cliente": 0,
+    "servicio": 4,
+    "agendamiento": 0
+  },
+  "clientes": [],
+  "servicios": [
+    {
+      "codigo": "SER-001",
+      "nombre": "Lavado simple",
+      "descripcion": "Lavado exterior",
+      "duracion_minutos": 30,
+      "valor_base": 10000,
+      "recargo_premium": 0
+    },
+    {
+      "codigo": "SER-002",
+      "nombre": "Lavado full",
+      "descripcion": "Exterior e interior",
+      "duracion_minutos": 60,
+      "valor_base": 15000,
+      "recargo_premium": 0
+    },
+    {
+      "codigo": "SER-003",
+      "nombre": "Lavado premium",
+      "descripcion": "Lavado completo y terminación premium",
+      "duracion_minutos": 90,
+      "valor_base": 20000,
+      "recargo_premium": 5000
+    },
+    {
+      "codigo": "SER-004",
+      "nombre": "Lavado de motor",
+      "descripcion": "Limpieza de motor",
+      "duracion_minutos": 45,
+      "valor_base": 18000,
+      "recargo_premium": 0
+    }
+  ],
+  "agendamientos": []
+}
